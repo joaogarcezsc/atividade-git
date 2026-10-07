@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: #f7f7f7;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: solid .5px #77777760;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+header p{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#navegacao{
+    display: flex;
+    gap: 20px;
+}
+
+#navegacao li{
+    list-style: none;
+}
+
+a{
+     text-decoration: none;
+     color: #000;
+     transition: .8s;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+#aprendizado{
+    padding: 40px;
+    /* Faz este bloco crescer e ocupar todo o espaço restante, empurrando o footer */
+    flex: 1; 
+}
+
+#aprendizado h1{
+    margin-bottom: 20px;
+}
+
+#aprendizado ul{
+    border: solid .5px #77777760;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: grid;
+    padding: 30px;
+    gap: 10px 30px;
+}
+
+#aprendizado ul li{
+    list-style: square;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    border: solid .5px #77777760;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    background: #fff; /* Opcional: adicionado apenas para destacar o fundo do rodapé */
+}
