@@ -1,12 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <header id="home">
+        <p>Minha Trilha de Aprendizagem</p>
+        <nav>
+            <ul id="navegacao">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#aprendizado">O que aprendi</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="aprendizado">
+        <h1>O que aprendi</h1>
+        <ul>
+            <li><strong>git config --global user.name "Seu Nome"</strong> - Configura o nome do usuário globalmente no
+                Git.</li>
+            <li><strong>git config --global user.email "seuemail@exemplo.com"</strong> - Configura o e-mail do usuário
+                globalmente.</li>
+
+            <li><strong>git init</strong> - Inicializa um novo repositório Git local na pasta atual.</li>
+
+            <li><strong>git status</strong> - Exibe o estado atual do diretório de trabalho e da área de stage.</li>
+            <li><strong>git add .</strong> - Adiciona todos os arquivos modificados e novos à área de stage.</li>
+            <li><strong>git diff</strong> - Mostra as alterações feitas nos arquivos que ainda não foram adicionadas ao
+                stage.</li>
+
+            <li><strong>git commit -m "Mensagem explicativa"</strong> - Grava as alterações que estão na área de stage
+                no histórico do repositório.</li>
+
+            <li><strong>git branch</strong> - Lista todas as branches locais do repositório.</li>
+            <li><strong>git checkout -b nome-da-branch</strong> - Cria uma nova branch e alterna automaticamente para
+                ela.</li>
+            <li><strong>git merge nome-da-branch</strong> - Une o histórico da branch especificada à branch atual.</li>
+
+            <li><strong>git remote add origin URL_DO_REPOSITORIO</strong> - Vincula o repositório local a um repositório
+                remoto no GitHub.</li>
+            <li><strong>git push -u origin main</strong> - Envia os commits locais para o repositório remoto pela
+                primeira vez, definindo a branch padrão.</li>
+
+            <li><strong>git clone URL_DO_REPOSITORIO</strong> - Baixa uma cópia completa de um repositório remoto
+                existente para o computador.</li>
+            <li><strong>git pull</strong> - Atualiza o repositório local buscando e mesclando as alterações do
+                repositório remoto.</li>
+
+            <li><strong>.gitignore</strong> - Arquivo de texto criado na raiz para listar arquivos e pastas que o Git
+                deve ignorar permanentemente.</li>
+        </ul>
+    </section>
+    <footer>
+        <p>@Git Todos os direitos reservados.</p>
+    </footer>
 </body>
+
 </html>
